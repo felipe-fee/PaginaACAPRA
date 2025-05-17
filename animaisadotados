@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animais Adotados</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="icon" href="Images/logo-6.png">
+
+    <link rel="stylesheet" href="animaisadotados.css">
+</head>
+
+<body>
+
+    <nav>
+
+        <div class="nav_esq">
+
+            <img src="images/logo-71.png" alt="logo" />
+
+        </div>
+
+        <div class="nav_dir">
+
+            <button>Página Inicial</button>
+            <button>História e missão</button>
+            <button>Doações</button>
+            <button>Notícias</button>
+            <button>Animais Adotados</button>
+
+        </div>
+
+    </nav>
+
+
+  <section class="animais_adotados">
+    <h1>Animais adotados</h1>
+
+    <div class="animal">
+      <img src="Images/thor.jpg" alt="Thor, cachorro adotado">
+      <div class="info">
+        <h2>Thor</h2>
+        <p class="idade">2 anos</p>
+        <p class="status">Castrado e vacinado</p>
+        <p class="descricao">
+          Thor foi resgatado pela ACAPRA em uma noite chuvosa, frágil e assustado. Após receber cuidados e amor na ONG, recuperou-se rapidamente. Agora, compartilhamos passeios na praia, brincadeiras e momentos de carinho. Adotá-lo mudou minha vida e reafirmou o poder de uma segunda chance.
+        </p>
+      </div>
+    </div>
+
+    <div class="animal">
+      <img src="Images/lila.png" alt="Lila, gata adotada">
+      <div class="info">
+        <h2>Lila</h2>
+        <p class="idade">1 ano</p>
+        <p class="status">Castrada e vacinada</p>
+        <p class="descricao">
+          Lila foi resgatada em um terreno baldio, onde se escondia entre entulhos para se proteger. Foi acolhida pela ACAPRA e, com cuidados veterinários e uma alimentação equilibrada. Levá-la para casa foi a melhor decisão! Agora, Lila adora explorar cada canto da casa e se aninhar no meu colo ao final do dia.
+        </p>
+      </div>
+    </div>
+
+        <div class="animal">
+      <img src="Images/max.jpg" alt="Max, cachorro adotada">
+      <div class="info">
+        <h2>Max</h2>
+        <p class="idade">1 ano</p>
+        <p class="status">Castrado e vacinado</p>
+        <p class="descricao">
+         Max foi resgatado pela ACAPRA após anos nas ruas. Com cicatrizes e olhar cansado, recebeu cuidados que transformaram sua vida. Quando o conheci, ele encostou a cabeça na minha mão, e soube que era especial. Hoje, Max é meu fiel companheiro, sempre grato e cheio de amor.
+        </p>
+      </div>
+
+
+    </div>
+        <div class="animal">
+      <img src="Images/luna.jpg" alt="Max, cachorro adotada">
+      <div class="info">
+        <h2>Luna</h2>
+        <p class="idade">4 anos</p>
+        <p class="status">Castrada e vacinada</p>
+        <p class="descricao">
+         Luna foi resgatada pela ACAPRA após ser encontrada em um estacionamento, assustada e procurando abrigo. Apesar do medo inicial, mostrou-se dócil. Hoje, Luna adora brincar com cordas e cochilar no meu colo.
+        </p>
+      </div>
+    </div>
+
+  </section>
+
+    <div class="pre_footer">
+    <div class="pre_footer_esq">
+      <img src="images/logo-6.png" alt="logo" />
+    </div>
+    <div class="pre_footer_dir">
+      <p id="Associacao">Associação Brusquense de Proteção aos Animais - ACAPRA</p>
+      <p>CNPJ: 03.722.251.0001-82</p>
+      <div class="pre_footer_dir_insta">
+        <img src="images/instagram-circle-4.png" alt="instagram-circle" />
+        <p>@acaprabrusquesc</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Site desenvolvido pela turma de sistemas de informação - Unifebe. 2025</p>
+  </footer>
+
+
+
+</body>
+
+</html>
