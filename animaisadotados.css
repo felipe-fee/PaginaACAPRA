@@ -1,0 +1,169 @@
+:root {
+  --font-family-montserrat: 'Montserrat', sans-serif;
+  --text-white: rgba(255, 255, 255, 1);
+  --text-rgb-78-78-78: rgba(78, 78, 78, 1);
+  --text-rgb-86-80-134: #565086;
+  --text-rgb-48-48-48: rgba(48, 48, 48, 1);
+}
+
+
+
+body {
+  margin: 0;
+  font-family: var(--font-family-montserrat);
+  background-color: #565086;
+}
+
+nav {
+    display: flex; 
+    justify-content: space-between; 
+    background-color: #565086; 
+    padding: 10px 20px; 
+}
+
+.nav_esq img {
+    height: 50px; 
+}
+
+.nav_dir {
+    display: flex; 
+}
+
+nav button {
+    font-family: var(--font-family-montserrat);
+    border: none;
+    background-color: transparent; 
+    padding: 10px 15px; 
+    cursor: pointer; 
+    border-radius: 10%;
+    font-weight: 900;
+}
+
+nav button a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;   /* ocupa toda a área do botão */
+}
+
+nav button:hover {
+    background-color: #4a4f6d; 
+}
+
+
+p {
+    color: #ffffff;
+}
+
+.animais_adotados {
+  max-width: 850px;
+  margin: 0 auto;
+  
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  background-color: #0EA5BC;
+  color: #fff;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.animal {
+  display: flex;
+  background-color: #4f4c7a;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.animal img {
+  width: 220px;
+  height: auto;
+  object-fit: cover;
+}
+
+.info {
+  padding: 20px;
+  flex: 1;
+}
+
+.info h2 {
+  color: #ffffff;  
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.idade,
+.status {
+  background-color: #0EA5BC;
+  color: white;
+  display: inline-block;
+  padding: 4px 8px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.idade {
+  margin-right: 8px;
+}
+
+.descricao {
+  margin-top: 10px;
+  font-size: 0.95rem;
+  line-height: 1.8;
+}
+
+
+.pre_footer {
+  margin-top: 75px;
+  background-color:#565086;
+  padding-top: 50px;
+  display: flex;
+
+}
+
+.pre_footer_esq {
+  padding-left: 80px;
+}
+
+.pre_footer_esq img {
+  width: 180px;
+}
+
+.pre_footer_dir {
+margin-top: 50px;
+}
+
+
+#Associacao {
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.pre_footer p {
+  margin: 0px;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.pre_footer_dir_insta {
+  display: flex;
+  
+}
+.pre_footer_dir_insta p {
+  margin-top: 18px;
+  
+}
+
+footer {
+  background-color: #565086d2;
+  color: #fff;
+  text-align: center;
+  padding: 0.5px 0;
+  bottom: 0;
+  width: 100%;
+}
