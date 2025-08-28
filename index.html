@@ -4,66 +4,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página inicial</title>
+    <title>ACAPRA</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="icon" href="Images/logo-6.png">
 
+
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="popup.css">
     <script src="script.js"></script>
 </head>
 
 <body>
 
     <nav>
-
         <div class="nav_esq">
-
             <img src="images/logo-71.png" alt="logo" />
-
         </div>
 
         <div class="nav_dir">
-
-            <button>Página Inicial</button>
-            <button>História e missão</button>
-            <button>Doações</button>
-            <button>Notícias</button>
-            <button>Animais Adotados</button>
-
+            <button><a href="index.html">Página Inicial</a></button>
+            <button><a href="historiaemissao.html">História e missão</a></button>
+            <button><a href="#iddoacoes">Doações</a></button>
+            <button><a href="noticias.html">Notícias</a></button>
+            <button><a href="animaisadotados.html">Animais Adotados</a></button>
         </div>
-
     </nav>
+
 
     <div class="banner">
         <img src="images/Capturar.PNG" class="imagem-c-cachorro-63" alt="imagem-c-cachorro" />
     </div>
 
     <div class="cards">
-
         <div class="card">
-            <img src="images/node-60.png" alt="sinais-cachorro-triste-1024x683-1" />
-            <div class="texto"></div>
+            <a href="historiaemissao.html"><img src="images/node-60.png" alt="sinais-cachorro-triste-1024x683-1" /></a>
+            <p class="texto_card">Conheça a ACAPRA</p>
 
         </div>
 
-        <div class="card">
+        <div class="card" onclick="abrirPopup()">
             <img src="images/images-1-52.png" alt="gatomanhoso" />
-            <div class="texto"></div>
+            <p class="texto_card2">Quero adotar!</p>
 
         </div>
 
         <div class="card">
-            <img src="images/node-56.png" alt="cachorro-para-apartamento" />
-            <div class="texto"></div>
+            <a href="animaisadotados.html"><img src="images/node-56.png" alt="cachorro-para-apartamento" /></a>
+            <p class="texto_card">Animais já adotados</p>
 
         </div>
+
+
+ <div id="popup" class="popup">
+    <div class="popup-content">
+        <span class="fechar" onclick="fecharPopup()">&times;</span>
+        <div class="popup-banner">
+            <img src="Images/gatoecachorropopup3.jpg" alt="Banner Adote" />
+        </div>
+        <div class="popup-texto">
+            <h2>Adotar um amigo</h2>
+            <p>Escolha o seu novo companheiro:</p>
+        </div>
+        <div class="popup-buttons">
+            <button onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSc1CjkssT6hAI5Wtzjwa7uwiiq4anO8_Uf_Oo8sV0VWWiAmog/viewform')">Cachorro</button>
+            <button onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSfnidAFGv1BBlNeC8PDzZtgIgw3_TZFqlM7EIRDUW40s8B2TA/viewform')">Gato</button>
+        </div>
+    </div>
+</div>
+
+
 
     </div>
 
-
     <div class="numero">
-        <h2>Alguns de nossos números:</h2>
+        <h2 class="">Alguns de nossos números:</h2>
         <div class="numeros">
 
             <div class="numeros_lados">
@@ -72,8 +87,8 @@
                     <button onclick="changeContent(500)">Animais para adoção</button>
                     <button onclick="changeContent(300)">Castrações realizadas</button>
                     <button onclick="changeContent(200)">Animais em situação de rua</button>
-                    <button onclick="changeContent(50)">Faturamento</button>
-                    <button onclick="changeContent(10)">Dívidas</button>
+                    <button onclick="changeContent('R$50.556')">Faturamento</button>
+                    <button onclick="changeContent('R$32.325')">Dívidas</button>
                 </div>
 
                 <div class="num_dir">
@@ -135,10 +150,7 @@
             <h2>Praticar ato de abuso, maus-tratos, ferir ou
                 mutilar É CRIME</h2>
 
-            <button onclick="abandono.html">
-                <p>Saiba como denunciar</p>
-                <a href="abandono.html"></a>
-            </button>
+            <button><a href="abandono.html"><p>Saiba como denunciar</p></a></button>
 
 
         </div>
@@ -150,7 +162,7 @@
 
     </div>
 
-    <div class="doacoes">
+    <div class="doacoes" id="iddoacoes">
 
         <div class="doacoes_esq">
 
