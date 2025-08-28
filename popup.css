@@ -1,0 +1,93 @@
+/* fundo escurecido */
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    justify-content: center;
+    align-items: center;
+}
+
+/* container principal */
+.popup-content {
+    position: relative;
+    background: #fff;
+    padding: 0;
+    border-radius: 16px;
+    max-width: 600px;
+    width: 90%;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+    overflow: hidden;
+    animation: fadeIn 0.3s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* botão fechar */
+.fechar {
+    position: absolute;
+    top: 12px;
+    right: 18px;
+    font-size: 28px;
+    cursor: pointer;
+    color: #fff;
+    z-index: 2;
+}
+
+/* imagem estilo banner */
+.popup-banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* texto central */
+.popup-texto {
+    padding: 20px 30px;
+    text-align: center;
+}
+
+.popup-texto h2 {
+    margin-bottom: 10px;
+    font-size: 26px;
+    color: #333;
+}
+
+.popup-texto p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* botões */
+.popup-buttons {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 30px 30px 30px;
+    gap: 20px;
+}
+
+.popup-buttons button {
+    flex: 1;
+    padding: 12px 0;
+    border: none;
+    border-radius: 10px;
+    background-color: #565086;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.popup-buttons button:hover {
+    background-color: #403c63;
+}
+
+/* animação */
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.95); }
+    to   { opacity: 1; transform: scale(1); }
+}
