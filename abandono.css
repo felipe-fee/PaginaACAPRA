@@ -1,0 +1,159 @@
+:root {
+  --font-family-montserrat: 'Montserrat', sans-serif;
+  --text-white: rgba(255, 255, 255, 1);
+  --text-rgb-78-78-78: rgba(78, 78, 78, 1);
+  --text-rgb-86-80-134: #565086;
+  --text-rgb-48-48-48: rgba(48, 48, 48, 1);
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family-montserrat);
+}
+
+nav {
+    display: flex; 
+    justify-content: space-between; 
+    background-color: #565086; 
+    padding: 10px 20px; 
+}
+
+.nav_esq img {
+    height: 50px; 
+}
+
+.nav_dir {
+    display: flex; 
+}
+
+nav button {
+    font-family: var(--font-family-montserrat);
+    border: none;
+    background-color: transparent; 
+    padding: 10px 15px; 
+    cursor: pointer; 
+    border-radius: 10%;
+    font-weight: 900;
+}
+
+nav button a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;   /* ocupa toda a área do botão */
+}
+
+nav button:hover {
+    background-color: #4a4f6d; 
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: auto; 
+  text-align: center;
+}
+
+.banner img {
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.texto1 {
+  color: #565086;
+  font-family: var(--font-family-montserrat);
+  margin: 10px 55px;
+}
+
+.texto1 p {
+  padding: 10px;
+  font-size: 18px;
+  line-height: 2.4;
+}
+
+.como_denunciar h2{
+
+  background-color:#0EA5BC;
+  padding: 1%;
+  font-weight: 900;
+  display: inline-block;
+  margin: 5px 60px;
+  font-family: var(--font-family-montserrat);
+  font-size: 30px;
+  color:#ffffff;
+
+} 
+
+.como_denunciar p{
+  color: #565086;
+  font-family: var(--font-family-montserrat);
+  margin: 10px 55px;
+  font-size: 18px;
+  line-height: 2.4;
+  font-weight: 600;
+}
+
+.como_denunciar h4{
+
+  padding: 1%;
+  font-weight: 900;
+  display: inline-block;
+  margin: 5px 40px;
+  font-family: var(--font-family-montserrat);
+  font-size: 22px;
+  color:#565086;
+
+} 
+
+.negrito {
+  font-weight: 900;
+}
+
+.pre_footer {
+  margin-top: 75px;
+  background-color:#565086;
+  padding-top: 50px;
+  display: flex;
+
+}
+
+.pre_footer_esq {
+  padding-left: 80px;
+}
+
+.pre_footer_esq img {
+  width: 180px;
+}
+
+.pre_footer_dir {
+margin-top: 50px;
+}
+
+
+#Associacao {
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.pre_footer p {
+  margin: 0px;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.pre_footer_dir_insta {
+  display: flex;
+  
+}
+.pre_footer_dir_insta p {
+  margin-top: 18px;
+  
+}
+
+footer {
+  background-color: #565086d2;
+  color: #fff;
+  text-align: center;
+  padding: 0.5px 0;
+  bottom: 0;
+  width: 100%;
+}
