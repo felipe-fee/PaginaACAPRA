@@ -58,19 +58,30 @@ nav button:hover {
   padding-bottom: 50px;
 }
 
-.texto1 {
-  color: #565086;
+
+.nossa_historia h4{
+
+  padding: 1%;
+  font-weight: 900;
+  display: inline-block;
+  margin: 5px 40px;
+  font-family: var(--font-family-montserrat);
+  font-size: 30px;
+  color:#565086;
+
+} 
+
+.nossa_historia p {
+  color:#565086;
   font-family: var(--font-family-montserrat);
   margin: 10px 55px;
-}
-
-.texto1 p {
-  padding: 10px;
   font-size: 18px;
   line-height: 2.4;
+  font-weight: 300;
+  margin-bottom: 50px;
 }
 
-.como_denunciar h2{
+.nossa_missao h2{
 
   background-color:#0EA5BC;
   padding: 1%;
@@ -83,30 +94,16 @@ nav button:hover {
 
 } 
 
-.como_denunciar p{
+.nossa_missao p {
   color: #565086;
   font-family: var(--font-family-montserrat);
   margin: 10px 55px;
   font-size: 18px;
   line-height: 2.4;
-  font-weight: 600;
+  font-weight: 300;
+  margin-bottom: 50px;
 }
 
-.como_denunciar h4{
-
-  padding: 1%;
-  font-weight: 900;
-  display: inline-block;
-  margin: 5px 40px;
-  font-family: var(--font-family-montserrat);
-  font-size: 22px;
-  color:#565086;
-
-} 
-
-.negrito {
-  font-weight: 900;
-}
 
 .pre_footer {
   margin-top: 75px;
@@ -155,5 +152,5 @@ footer {
   text-align: center;
   padding: 0.5px 0;
   bottom: 0;
-  width: 100%;
+  width: 100%;
 }
